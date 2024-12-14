@@ -1,0 +1,146 @@
+/* CSS for idenx file */
+* {
+    background-color: azure;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-container {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-logo{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+.header-links  {
+    display:flex;
+    background-color: #1F2937;
+    gap: 10px;
+}
+.header-links > * {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.welcome-container {
+    display: flex;
+    background-color: #1F2937;
+    height: 280px;
+    color: #F9FAF8;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.awesome {
+    background-color:#1F2937 ;
+    width: 375px;
+}
+.awesome > * {
+    background-color:#1F2937 ;
+}
+.image {
+    /* background-color: #E5E7EB; */
+    color: #1F2937;
+    width: 375px;
+    height:180px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictures {
+    height:250px;
+    display: flex;
+    gap:80px;
+  
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+.pictures > * {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 180px;
+    height:180px; 
+    
+}
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quote {
+    height:100px;
+    width:350px;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+.whosaid {
+    display: flex;
+    background-color: #E5E7EB;
+    width:350px;
+    justify-content: right;
+    font-weight: 600;
+}
+.calltoaction {
+   display: flex;
+    background-color: azure;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+.kasten {
+    display: flex;
+    
+    height: 150px;
+    width: 650px;   
+    align-items: center;
+    
+    background-color: #3882F6;
+    justify-content: space-evenly;
+}
+.actionone {
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 325px;
+}
+.actionone > * {
+    background-color: #3882F6;
+}
+.actiontwo {
+   display: flex;
+   justify-content: right;
+   align-items: center; 
+   border-radius: 15px;
+   
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.footer > *{
+    background-color:#1F2937 ;
+}
