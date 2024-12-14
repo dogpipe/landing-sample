@@ -103,6 +103,7 @@
     height: 250px;
     align-items: center;
     justify-content: space-around;
+    border-radius: 15px;
      
 }
 .kasten {
